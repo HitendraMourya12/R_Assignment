@@ -1,0 +1,9 @@
+matrix_5x3 <- matrix(1:15, nrow = 5, ncol = 3, byrow = FALSE)
+
+new_row <- c(16, 17, 18)
+
+matrix_6x3 <- rbind(matrix_5x3, new_row)
+
+print(matrix_6x3)
+
+print(dim(matrix_6x3))  
